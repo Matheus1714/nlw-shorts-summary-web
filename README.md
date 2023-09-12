@@ -1,7 +1,7 @@
 # NLW | Shorts Summary 🚀
 
-![GitHub](https://img.shields.io/github/license/Matheus1714/nlw-shorts-summary)
-![GitHub deployments](https://img.shields.io/github/deployments/matheus1714/nlw-shorts-summary/production)
+![GitHub](https://img.shields.io/github/license/Matheus1714/nlw-shorts-summary-web)
+![GitHub deployments](https://img.shields.io/github/deployments/matheus1714/nlw-shorts-summary-web/production)
 
 ![cover](.github/cover.png)
 
