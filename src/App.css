@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container > h1 {
+  color: var(--text-title-color);
+  margin-top: -5px;
+}
+.container > h2 {
+  align-self: flex-start;
+  margin: 4rem 0 1.125rem;
+}
+.container > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 32rem;
+}
+.container > img {
+  width: 4rem;
+}
+.container .placeholder {
+  color: var(--text-user-color);
+  user-select: none;
+}
+
+#form {
+  margin-top: 4rem;
+  display: flex;
+  gap: 0.75rem;
+}
+#form > input {
+  all: unset;
+  height: 3rem;
+  width: 28.125rem;
+  color: var(--text-color);
+  background-color: var(--bg-input-color);
+  border-radius: 5px;
+  padding: 0 0.75rem;
+  font-size: 1rem;
+
+  transition: all 1s;
+}
+#form > input:focus {
+  outline: 2px solid var(--outline-input-color);
+}
+#form > input:valid {
+  background-color: var(--bg-input-color);
+}
+#form > button {
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--bg-button-color);
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+}
+#form button:hover {
+  background-color: var(--bg-button-color-hover);
+}
+#form button > svg {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
