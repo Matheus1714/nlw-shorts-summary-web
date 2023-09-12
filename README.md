@@ -45,7 +45,7 @@ The design can be found in the [Figma Design](<https://www.figma.com/file/k2lAm2
 
 ## DEMO 🚀
 
-To access the application click on link [Application DEMO]()
+To access the application click on link [Application DEMO](https://nlw-shorts-summary-web.vercel.app/)
 
 <p align="right"><a href="#readme-top">🔝 Return</a></p>
 
