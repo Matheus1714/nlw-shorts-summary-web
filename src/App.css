@@ -20,9 +20,6 @@
   text-align: justify;
   width: 100%;
 }
-.container > img {
-  width: 6rem;
-}
 .container .placeholder {
   color: var(--text-user-color);
   user-select: none;
@@ -74,7 +71,7 @@
   font-size: 1.5rem;
   color: var(--text-color);
 }
-@media (max-width: 700px) {
+@media (max-width: 552px) {
   .container {
     margin: 0 1rem;
   }
