@@ -1,7 +1,6 @@
 # NLW | Shorts Summary 🚀
 
 ![GitHub](https://img.shields.io/github/license/Matheus1714/nlw-shorts-summary-web)
-![GitHub deployments](https://img.shields.io/github/deployments/matheus1714/nlw-shorts-summary-web/production)
 
 ![cover](.github/cover.png)
 
@@ -14,7 +13,6 @@
 - [About](#about-ℹ️)
 - [About NLW](#about-nlw-🚀)
 - [Design](#design-📏)
-- [DEMO](#demo-🚀)
 - [Technologies Used](#technologies-used-⚙️)
 - [Features](#features-✅)
 - [Package Dependencies](#package-dependencies-⬇️)
@@ -43,12 +41,6 @@ The design can be found in the [Figma Design](<https://www.figma.com/file/k2lAm2
 
 ![animation-figma](.github/animation-figma.gif)
 
-## DEMO 🚀
-
-To access the application click on link [Application DEMO](https://nlw-shorts-summary-web.vercel.app/)
-
-<p align="right"><a href="#readme-top">🔝 Return</a></p>
-
 ## Technologies Used ⚙️
 
 The technologies utilized in this project include:
@@ -73,10 +65,11 @@ Here is a list of the project's package dependencies:
 ```json
 "dependencies": {
    "@phosphor-icons/react": "^2.0.10",
+   "axios": "^1.5.0",
    "react": "^18.2.0",
    "react-dom": "^18.2.0"
 },
-"devDependencies": {
+  "devDependencies": {
    "@types/react": "^18.2.15",
    "@types/react-dom": "^18.2.7",
    "@typescript-eslint/eslint-plugin": "^6.0.0",
@@ -96,17 +89,21 @@ Here is a list of the project's package dependencies:
 
 To get started with the project, follow these steps:
 
-1. Install the project dependencies:
+1. Configure the api repository: https://github.com/Matheus1714/nlw-shorts-summary-api/
+
+2. Install the project dependencies:
 
 ```
 npm i
 ```
 
-2. Execute the following command in your terminal to run the project:
+3. Execute the following command in your terminal to run the project:
 
 ```
 npm run dev
 ```
+
+_Obs: Both this repositories and api-repository must runnig together._
 
 <p align="right"><a href="#readme-top">🔝 Return</a></p>
 
