@@ -61,8 +61,8 @@ The technologies utilized in this project include:
 ## Features ✅
 
 - [x] Create Screens
-- [ ] Integrate a Back-end
-- [ ] Integrate OpenAI
+- [x] Integrate a Back-end
+- [x] Integrate OpenAI
 
 <p align="right"><a href="#readme-top">🔝 Return</a></p>
 
